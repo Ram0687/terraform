@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1741282348,,"wq!"
+|2,0,1741283135,,"wq!"
 :q!
 |2,0,1741282320,,"q!"
 
@@ -31,33 +31,41 @@
 
 # File marks:
 '0  124  0  ~/ramvpc.tf
-|4,48,124,0,1741282348,"~/ramvpc.tf"
-'1  1  0  ~/ramvpc.tf
-|4,49,1,0,1741282320,"~/ramvpc.tf"
-'2  1  0  ~/ramvpc.tf
-|4,50,1,0,1741282320,"~/ramvpc.tf"
-'3  17  0  ~/provider.tf
-|4,51,17,0,1741280445,"~/provider.tf"
-'4  247  0  ~/ramvpc.tf
-|4,52,247,0,1741280404,"~/ramvpc.tf"
-'5  247  0  ~/ramvpc.tf
-|4,53,247,0,1741280404,"~/ramvpc.tf"
-'6  124  0  ~/ramvpc.tf
-|4,54,124,0,1741280404,"~/ramvpc.tf"
-'7  124  0  ~/ramvpc.tf
-|4,55,124,0,1741280404,"~/ramvpc.tf"
-'8  369  0  ~/ramvpc.tf
-|4,56,369,0,1741280283,"~/ramvpc.tf"
-'9  246  0  ~/ramvpc.tf
-|4,57,246,0,1741280283,"~/ramvpc.tf"
+|4,48,124,0,1741283135,"~/ramvpc.tf"
+'1  247  0  ~/ramvpc.tf
+|4,49,247,0,1741282348,"~/ramvpc.tf"
+'2  124  0  ~/ramvpc.tf
+|4,50,124,0,1741282348,"~/ramvpc.tf"
+'3  1  0  ~/ramvpc.tf
+|4,51,1,0,1741282320,"~/ramvpc.tf"
+'4  1  0  ~/ramvpc.tf
+|4,52,1,0,1741282320,"~/ramvpc.tf"
+'5  1  0  ~/ramvpc.tf
+|4,53,1,0,1741282320,"~/ramvpc.tf"
+'6  1  0  ~/ramvpc.tf
+|4,54,1,0,1741282320,"~/ramvpc.tf"
+'7  17  0  ~/provider.tf
+|4,55,17,0,1741280445,"~/provider.tf"
+'8  370  0  ~/ramvpc.tf
+|4,56,370,0,1741280404,"~/ramvpc.tf"
+'9  370  0  ~/ramvpc.tf
+|4,57,370,0,1741280404,"~/ramvpc.tf"
 
 # Jumplist (newest first):
+-'  124  0  ~/ramvpc.tf
+|4,39,124,0,1741283135,"~/ramvpc.tf"
+-'  1  0  ~/ramvpc.tf
+|4,39,1,0,1741283118,"~/ramvpc.tf"
+-'  247  0  ~/ramvpc.tf
+|4,39,247,0,1741282348,"~/ramvpc.tf"
 -'  124  0  ~/ramvpc.tf
 |4,39,124,0,1741282348,"~/ramvpc.tf"
 -'  1  0  ~/ramvpc.tf
 |4,39,1,0,1741282331,"~/ramvpc.tf"
 -'  1  0  ~/ramvpc.tf
 |4,39,1,0,1741282320,"~/ramvpc.tf"
+-'  370  0  ~/ramvpc.tf
+|4,39,370,0,1741282284,"~/ramvpc.tf"
 -'  247  0  ~/ramvpc.tf
 |4,39,247,0,1741282284,"~/ramvpc.tf"
 -'  124  0  ~/ramvpc.tf
@@ -70,6 +78,22 @@
 |4,39,17,0,1741280445,"~/provider.tf"
 -'  17  0  ~/provider.tf
 |4,39,17,0,1741280445,"~/provider.tf"
+-'  17  0  ~/provider.tf
+|4,39,17,0,1741280445,"~/provider.tf"
+-'  17  0  ~/provider.tf
+|4,39,17,0,1741280445,"~/provider.tf"
+-'  17  0  ~/provider.tf
+|4,39,17,0,1741280445,"~/provider.tf"
+-'  17  0  ~/provider.tf
+|4,39,17,0,1741280445,"~/provider.tf"
+-'  1  0  ~/provider.tf
+|4,39,1,0,1741280420,"~/provider.tf"
+-'  1  0  ~/provider.tf
+|4,39,1,0,1741280420,"~/provider.tf"
+-'  1  0  ~/provider.tf
+|4,39,1,0,1741280420,"~/provider.tf"
+-'  1  0  ~/provider.tf
+|4,39,1,0,1741280420,"~/provider.tf"
 -'  1  0  ~/provider.tf
 |4,39,1,0,1741280420,"~/provider.tf"
 -'  1  0  ~/provider.tf
@@ -86,6 +110,12 @@
 |4,39,1,0,1741280398,"~/ramvpc.tf"
 -'  1  0  ~/ramvpc.tf
 |4,39,1,0,1741280398,"~/ramvpc.tf"
+-'  492  0  ~/ramvpc.tf
+|4,39,492,0,1741280283,"~/ramvpc.tf"
+-'  369  0  ~/ramvpc.tf
+|4,39,369,0,1741280283,"~/ramvpc.tf"
+-'  246  0  ~/ramvpc.tf
+|4,39,246,0,1741280283,"~/ramvpc.tf"
 -'  369  0  ~/ramvpc.tf
 |4,39,369,0,1741280283,"~/ramvpc.tf"
 -'  246  0  ~/ramvpc.tf
@@ -110,11 +140,12 @@
 # History of marks within files (newest to oldest):
 
 > ~/ramvpc.tf
-	*	1741282345	0
+	*	1741283131	0
 	"	124	0
 	^	124	1
 	.	124	0
-	+	369	0
+	+	492	0
+	+	370	0
 	+	247	0
 	+	124	0
 

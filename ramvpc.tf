@@ -19,7 +19,7 @@ resource "aws_subnet" "pvt_sbnt" {
 }
 resource "aws_route_table" "pub_rt" {
     vpc_id = aws_vpc.my_vpc.id
-    route = {
+    route  {
         cidr_block = "0.0.0.0/0"
         gateway_id = aws_internet_gateway.my_igw.id
     }
@@ -32,8 +32,8 @@ resource "aws_route_table_association" "pub_rt_assc" {
     route_table_id = aws_route_table.pub_rt.id
 }
 resource "aws_route_table" "pvt_rt" {
-    vpc_id = aws_vpc.pvt_rt.id
-    route = {
+    vpc_id = aws_vpc.my_vpc.id
+    route {
         cidr_block = "0.0.0.0/0"
         gateway_id = aws_nat_gateway.my_ngw.id
     }
@@ -94,7 +94,7 @@ resource "aws_instance" "pub_ec2" {
     associate_public_ip_address = true
     vpc_security_group_ids = [aws_security_group.pub_sg.id]
     tags = {
-        "Name"= my_pub_ec2
+        "Name"= "my_pub_ec2"
     }
 }
 resource "aws_instance" "pvt_ec2" {
@@ -103,7 +103,7 @@ resource "aws_instance" "pvt_ec2" {
     instance_type = "t2.micro"
     vpc_security_group_ids = [aws_security_group.pvt_sg.id]
     tags = {
-        "Name"= my_pvt_ec2
+        "Name"= "my_pvt_ec2"
     }
 }
 resource "aws_internet_gateway" "my_igw" {
