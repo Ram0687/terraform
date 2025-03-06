@@ -28,7 +28,7 @@ resource "aws_route_table" "pub_rt" {
     }
 }
 resource "aws_route_table_association" "pub_rt_assc" {
-    subnet_id = aws_subnet.pub_sbnt
+    subnet_id = aws_subnet.pub_sbnt.id
     route_table_id = aws_route_table.pub_rt.id
 }
 resource "aws_route_table" "pvt_rt" {
@@ -88,7 +88,7 @@ resource "aws_security_group" "pvt_sg" {
     }
 }
 resource "aws_instance" "pub_ec2" {
-    subnet_id = aws_subnet.pub_sbnt
+    subnet_id = aws_subnet.pub_sbnt.id
     ami = "ami-0d682f26195e9ec0f"
     instance_type = "t2.micro"
     associate_public_ip_address = true
@@ -98,7 +98,7 @@ resource "aws_instance" "pub_ec2" {
     }
 }
 resource "aws_instance" "pvt_ec2" {
-    subnet_id = aws_subnet.pvt_sbnt
+    subnet_id = aws_subnet.pvt_sbnt.id
     ami = "ami-0d682f26195e9ec0f"
     instance_type = "t2.micro"
     vpc_security_group_ids = [aws_security_group.pvt_sg.id]
