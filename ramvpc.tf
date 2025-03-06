@@ -113,7 +113,7 @@ resource "aws_internet_gateway" "my_igw" {
     }
 }
 resource "aws_eip" "my_eip" {
-    vpc = true
+    domain = "vpc"
 }
 resource "aws_nat_gateway" "my_ngw" {
     subnet_id = aws_subnet.pub_sbnt.id
